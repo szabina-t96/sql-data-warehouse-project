@@ -73,27 +73,7 @@ This structure supports efficient querying and integration with BI tools like Po
 
 ## Repository Structure
 
-sql-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
-│
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
+sql-data-warehouse-project/ │ ├── datasets/ # Raw datasets used for the project (ERP and CRM data) │ ├── docs/ # Project documentation and architecture details │ ├── etl.drawio # Visual overview of ETL techniques and methods │ ├── data_architecture.drawio # Diagram of the overall data warehouse architecture │ ├── data_catalog.md # Dataset catalog with field descriptions and metadata │ ├── data_flow.drawio # Data flow diagram showing pipeline stages │ ├── data_models.drawio # Star schema and data model diagrams │ ├── naming-conventions.md # Guidelines for naming tables, columns, and files │ ├── scripts/ # SQL scripts for ETL and transformations │ ├── bronze/ # Scripts for raw data ingestion │ ├── silver/ # Scripts for data cleansing and normalization │ ├── gold/ # Scripts for building analytical models │ ├── tests/ # Data validation and quality check scripts │ ├── quality_checks_silver.sql # Validates integrity, consistency, and formatting in Silver Layer │ ├── duplicate_check.sql # Detects duplicate records in key tables │ ├── null_check.sql # Flags missing values in critical fields │ ├── README.md # Project overview and learning summary ├── LICENSE # License information for reuse and distribution
 
 ## Next Steps
 
