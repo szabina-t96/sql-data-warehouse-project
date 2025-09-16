@@ -69,6 +69,8 @@ This structure supports efficient querying and integration with BI tools like Po
 | GitHub             | Version control and collaboration       |
 | Notion             | Organize project tasks and documentation|
 
+Link to Notion: https://www.notion.so/Data-Warehouse-Project-26bfa9abac0080028016cc6ecd7e845b?source=copy_link
+
 ---
 
 ## Repository Structure
