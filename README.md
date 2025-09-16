@@ -72,6 +72,7 @@ This structure supports efficient querying and integration with BI tools like Po
 ---
 
 ## Repository Structure
+```
 sql-data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
@@ -93,7 +94,7 @@ sql-data-warehouse-project/
 │
 ├── README.md                           # Project overview and instructions
 └── LICENSE                             # License information for the repository
-
+```
 ## Next Steps
 
 - Integrate Power BI for dashboarding
